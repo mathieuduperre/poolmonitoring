@@ -16,7 +16,7 @@ import urllib2           # URL functions
 
 ################# Default Constants #################
 # These can be changed if required
-THINGSPEAKKEY = 'XXXXXXXXXX'
+THINGSPEAKKEY = 'XXXXXXXXXXX'
 THINGSPEAKURL = 'https://api.thingspeak.com/update'
 lowsensor_gpio = 27
 highsensor_gpio = 15
@@ -60,7 +60,7 @@ def sendData(url,key,field2,field3,lowsensor,highsensor):
 
 def read_low_sensor():
     input_state = GPIO.input(lowsensor_gpio)
-    if input_state == False:
+    if input_state == False: 
         return 0
     else:
         return 1

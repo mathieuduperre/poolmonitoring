@@ -3,16 +3,12 @@
 #           pool monitoring
 #  read a ph sensor and send to Thingspeak.com
 #
-#  this use a ph sensor, with a phidget 1030 module
-# and an arduino plugged on the raspberry usb port
-# so you need UUGear library to speak with the arduino
-# and find its unique ID. configure it below.
-#
 # Author : Mathieu Duperre
 # Date   : 25/04/2017
 ############################################
+import sys; sys.path.append('/home/pi/poolmonitoring/')
 
-from time import sleep
+#from time import sleep
 from UUGear import *
 import time
 import RPi.GPIO as GPIO
@@ -25,7 +21,7 @@ arduinoID = 'UUGear-Arduino-3186-9458'
 
 ################# Default Constants #################
 # These can be changed if required
-THINGSPEAKKEY = 'XXXXXXXXXX'
+THINGSPEAKKEY = 'XXXXXXXXXXXXXXXXXXX'
 THINGSPEAKURL = 'https://api.thingspeak.com/update'
 
 #####################################################
@@ -83,3 +79,4 @@ def read_ph_sensor():
 phValue=read_ph_sensor()
 sendData(THINGSPEAKURL,THINGSPEAKKEY,'field4',phValue)
 sys.stdout.flush()
+

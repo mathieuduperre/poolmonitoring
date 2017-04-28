@@ -1,8 +1,8 @@
 #!/usr/bin/python
 ############################################
 #           pool monitoring
-#  Read data from a DS18B20 sensor 
-#  and send to Thingspeak.com
+#  Read data from a DS18B20 sensor and a
+#  float sensor and send to Thingspeak.com
 #
 # Author : Mathieu Duperre
 # Date   : 25/04/2017

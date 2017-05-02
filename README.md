@@ -14,3 +14,11 @@ This project is about monitoring a pool using a raspberry pi and a bunch of smal
 connecting the raspberry pi (2) with the arduino and the sensors is done with the following diagram (excuse the poor quality, i don't know which sofware to use).
 
 <img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/poolmonitoring.png">
+
+<img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/20170502_144557.jpg">
+
+<img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/20170502_144538.jpg">
+
+<img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/20170502_144541.jpg">
+
+<img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/20170502_144547.jpg">

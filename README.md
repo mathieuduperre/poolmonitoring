@@ -1,7 +1,7 @@
 # poolmonitoring
 Raspberry pi Pool monitoring project
 
-This project is about monitoring a pool using a raspberry pi and a bunch of small sensors .
+This project is about monitoring a pool using a raspberry pi and a bunch of small sensors . The probing is done through arduino/raspberry pi, and sent to thingspeak for graphs. we will use ifft later to create alerts. 
 
 2 temperature sensors (DS18b20) waterproof. Connected using a 5k resistor (google how to connect to raspberry pi, fairly easy)
 
@@ -10,3 +10,6 @@ This project is about monitoring a pool using a raspberry pi and a bunch of smal
 1 ph sensor
 
 1 ORP sensor
+
+connecting the raspberry pi (2) with the arduino and the sensors is done with the following diagram (excuse the poor quality, i don't know which sofware to use).
+

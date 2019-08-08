@@ -17,6 +17,21 @@ The probing is done through arduino/raspberry pi, and sent to thingspeak for gra
 
 connecting the raspberry pi (2) with the arduino and the sensors is done with the following diagram (excuse the poor quality, i don't know which sofware to use).
 
+You will need UUGear in your raspberry pi:
+
+git clone https://github.com/uugear/UUGear.git
+cd UUGear/RaspberryPi
+chmod 775 build.sh
+./build.sh
+cd bin
+./lsuu
+
+you need the UUGear library properly installed for your ph and orp probe to work through arduino. You will also have to flash your arduino, please follow the uugear guide below. 
+
+you should see your arduino connected by USB to your raspberry pi. If need check there to debug: http://www.uugear.com/uugear-rpi-arduino-solution/
+
+
+
 <img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/poolmonitoring.png">
 
 <img src="https://github.com/mathieuduperre/poolmonitoring/raw/master/20170502_144557.jpg">
